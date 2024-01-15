@@ -11,7 +11,7 @@ public class Storage : MonoBehaviour
     public static int cGreen = 0;
     public static int cBlue = 0;
     public static int cViol = 0;
-    public static int cYelow = 0;
+    public static int cYellow = 0;
     public static int cOrange = 0;
     public static int cRed = 0;
     public static int cBlack = 0;
@@ -35,7 +35,7 @@ public class Storage : MonoBehaviour
         cGreenT.text = cGreen.ToString();
         cBlueT.text = cBlue.ToString();
         cViolT.text = cViol.ToString();
-        cYellowT.text = cYellowT.ToString();
+        cYellowT.text = cYellow.ToString();
         cOrangeT.text = cOrange.ToString();
         cRedT.text = cRed.ToString();
         cBlackT.text = cBlack.ToString();

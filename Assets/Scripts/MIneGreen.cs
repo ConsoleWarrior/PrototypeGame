@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MineWhite : Mine
+public class MIneGreen : Mine
 {
 
     public override void OnClickMine()
     {
-        Storage.cWhite += countIncrease;
+        Storage.cGreen += countIncrease;
         Debug.Log(countIncrease);
     }
     public override void OnClickMineIncreaseUpgrade()
     {
-        if (Storage.cWhite >= costIncrease)
+        if (Storage.cGreen >= costIncrease)
         {
-            Storage.cWhite -= costIncrease;
+            Storage.cGreen -= costIncrease;
             costIncrease *= 10;
             costIncreaseT.text = costIncrease.ToString();
             countIncrease++;
@@ -23,9 +23,9 @@ public class MineWhite : Mine
     }
     public override void OnClickMineAutoIncreaseUpgrade()
     {
-        if (Storage.cWhite >= costAutoIncrease)
+        if (Storage.cGreen >= costAutoIncrease)
         {
-            Storage.cWhite -= costAutoIncrease;
+            Storage.cGreen -= costAutoIncrease;
             costAutoIncrease *= 10;
             costAutoIncreaseT.text = costAutoIncrease.ToString();
             countAutoIncrease++;
@@ -34,6 +34,6 @@ public class MineWhite : Mine
     }
     public override void Craft()
     {
-        Storage.cWhite += countAutoIncrease;
+        Storage.cGreen += countAutoIncrease;
     }
 }
