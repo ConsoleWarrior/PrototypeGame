@@ -13,6 +13,12 @@ public class Hex : MonoBehaviour, IPointerClickHandler
     public Text enemyGreyT;
     public int enemyGreyInc;
 
+    public Text myPowerT;
+    public int myPower;
+    public Text enemyPowerT;
+    public int enemyPower;
+
+
     public GameObject hexPanel;
     public Slider sliderGrey;
     public Text valueGrey;
@@ -28,6 +34,8 @@ public class Hex : MonoBehaviour, IPointerClickHandler
     void Update()
     {
         enemyGreyT.text = enemyGrey.ToString();
+        enemyPowerT.text = enemyPower.ToString();
+        myPowerT.text = myPower.ToString();
 
 
         valueGrey.text = Math.Truncate(sliderGrey.value * Storage.cGrey).ToString();
@@ -69,7 +77,11 @@ public class Hex : MonoBehaviour, IPointerClickHandler
             enemyGrey = 0;
             owner = false;
             StopAllCoroutines();
-            this.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            this.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
         }
+    }
+    public void SendResToHex()
+    {
+
     }
 }

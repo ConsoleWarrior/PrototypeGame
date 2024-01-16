@@ -7,22 +7,23 @@ using UnityEngine.UI;
 
 public class Mine : MonoBehaviour, IPointerClickHandler
 {
-    //public Text countT;
+
     public Text countIncreaseT;
     public Text countAutoIncreaseT;
     public Text costIncreaseT;
     public Text costAutoIncreaseT;
 
-    //int count = 0;
     public int countIncrease = 1;
     public int countAutoIncrease = 0;
-    public int costIncrease = 30;
-    public int costAutoIncrease = 10;
+    public int costIncrease = 10;
+    public int costAutoIncrease = 30;
     public GameObject UpgradePanel;
 
     void Start()
     {
         StartCoroutine(AutoIncrease());
+        costIncreaseT.text = costIncrease.ToString();
+        costAutoIncreaseT.text = costAutoIncrease.ToString();
     }
     void Update()
     {
@@ -33,7 +34,6 @@ public class Mine : MonoBehaviour, IPointerClickHandler
     {
         if (eventData.button == PointerEventData.InputButton.Right)
         {
-            Debug.Log("Right click");
             UpgradePanel.SetActive(true);
             eventData.Reset();
         }
@@ -52,7 +52,7 @@ public class Mine : MonoBehaviour, IPointerClickHandler
         if (Storage.cGrey >= costIncrease)
         {
             Storage.cGrey -= costIncrease;
-            costIncrease *= 10;
+            costIncrease *= 3;
             costIncreaseT.text  = costIncrease.ToString();
             countIncrease++;
             countIncreaseT.text = countIncrease.ToString();
@@ -63,7 +63,7 @@ public class Mine : MonoBehaviour, IPointerClickHandler
         if (Storage.cGrey >= costAutoIncrease)
         {
             Storage.cGrey -= costAutoIncrease;
-            costAutoIncrease *= 10;
+            costAutoIncrease *= 3;
             costAutoIncreaseT.text = costAutoIncrease.ToString();
             countAutoIncrease++;
             countAutoIncreaseT.text = countAutoIncrease.ToString();
@@ -71,6 +71,7 @@ public class Mine : MonoBehaviour, IPointerClickHandler
     }
     public virtual void Craft()
     {
+
         Storage.cGrey += countAutoIncrease;
 
     }
@@ -79,8 +80,8 @@ public class Mine : MonoBehaviour, IPointerClickHandler
         while (true)
         {
             yield return new WaitForSecondsRealtime(1);
-            Craft();        }
-
+            Craft();
+        }
     }
 
 }

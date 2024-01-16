@@ -7,15 +7,18 @@ public class MineWhite : Mine
 
     public override void OnClickMine()
     {
-        Storage.cWhite += countIncrease;
-        Debug.Log(countIncrease);
+        if (Storage.cGrey >= countIncrease * 2)
+        {
+            Storage.cGrey -= countIncrease * 2;
+            Storage.cWhite += countIncrease;
+        }
     }
     public override void OnClickMineIncreaseUpgrade()
     {
         if (Storage.cWhite >= costIncrease)
         {
             Storage.cWhite -= costIncrease;
-            costIncrease *= 10;
+            costIncrease *= 3;
             costIncreaseT.text = costIncrease.ToString();
             countIncrease++;
             countIncreaseT.text = countIncrease.ToString();
@@ -26,7 +29,7 @@ public class MineWhite : Mine
         if (Storage.cWhite >= costAutoIncrease)
         {
             Storage.cWhite -= costAutoIncrease;
-            costAutoIncrease *= 10;
+            costAutoIncrease *= 3;
             costAutoIncreaseT.text = costAutoIncrease.ToString();
             countAutoIncrease++;
             countAutoIncreaseT.text = countAutoIncrease.ToString();
@@ -34,6 +37,10 @@ public class MineWhite : Mine
     }
     public override void Craft()
     {
-        Storage.cWhite += countAutoIncrease;
+        if (Storage.cGrey >= 2 * countAutoIncrease)
+        {
+            Storage.cGrey -= 2 * countAutoIncrease;
+            Storage.cWhite += countAutoIncrease;
+        }
     }
 }
