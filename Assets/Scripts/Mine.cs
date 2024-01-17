@@ -7,17 +7,18 @@ using UnityEngine.UI;
 
 public class Mine : MonoBehaviour, IPointerClickHandler
 {
+    public int mineIndex;
+    public GameObject UpgradePanel;
 
     public Text countIncreaseT;
     public Text countAutoIncreaseT;
     public Text costIncreaseT;
     public Text costAutoIncreaseT;
+    public int countIncrease;
+    public int countAutoIncrease;
+    public int costIncrease;
+    public int costAutoIncrease;
 
-    public int countIncrease = 1;
-    public int countAutoIncrease = 0;
-    public int costIncrease = 10;
-    public int costAutoIncrease = 30;
-    public GameObject UpgradePanel;
 
     void Start()
     {
@@ -45,44 +46,51 @@ public class Mine : MonoBehaviour, IPointerClickHandler
 
     public virtual void OnClickMine()
     {
-        Storage.cGrey += countIncrease;
+        if (mineIndex == 0) Storage.storage[mineIndex] += countIncrease;
+        else if (Storage.storage[mineIndex - 1] >= countIncrease * 2)
+        {
+            Storage.storage[mineIndex - 1] -= countIncrease * 2;
+            Storage.storage[mineIndex] += countIncrease;
+        }
     }
     public virtual void OnClickMineIncreaseUpgrade()
     {
-        if (Storage.cGrey >= costIncrease)
+        if (Storage.storage[mineIndex] >= costIncrease)
         {
-            Storage.cGrey -= costIncrease;
+            Storage.storage[mineIndex] -= costIncrease;
             costIncrease *= 3;
-            costIncreaseT.text  = costIncrease.ToString();
+            costIncreaseT.text = costIncrease.ToString();
             countIncrease++;
             countIncreaseT.text = countIncrease.ToString();
         }
     }
     public virtual void OnClickMineAutoIncreaseUpgrade()
     {
-        if (Storage.cGrey >= costAutoIncrease)
+        if (Storage.storage[mineIndex] >= costAutoIncrease)
         {
-            Storage.cGrey -= costAutoIncrease;
+            Storage.storage[mineIndex] -= costAutoIncrease;
             costAutoIncrease *= 3;
             costAutoIncreaseT.text = costAutoIncrease.ToString();
             countAutoIncrease++;
             countAutoIncreaseT.text = countAutoIncrease.ToString();
         }
     }
-    public virtual void Craft()
+    public virtual void AutoCraft()
     {
-
-        Storage.cGrey += countAutoIncrease;
-
+        if (mineIndex == 0) Storage.storage[mineIndex] += countAutoIncrease;
+        else if (Storage.storage[mineIndex - 1] >= 2 * countAutoIncrease)
+        {
+            Storage.storage[mineIndex - 1] -= 2 * countAutoIncrease;
+            Storage.storage[mineIndex] += countAutoIncrease;
+        }
     }
     IEnumerator AutoIncrease()
     {
         while (true)
         {
             yield return new WaitForSecondsRealtime(1);
-            Craft();
+            AutoCraft();
         }
     }
-
 }
 
