@@ -7,55 +7,55 @@ using UnityEngine.UI;
 
 public class Hex : MonoBehaviour, IPointerClickHandler
 {
+    public HexPanel hexPanel;
     public int hexIndex;
     public int[] hexCargoPlayer = new int[9];
-    public Text[] hexCargoPlayerT = new Text[9];
     public int[] hexCargoEnemy = new int[9];
-    public Text[] hexCargoEnemyT = new Text[9];
-    public Slider[] sliders = new Slider[9];
-    public Text[] valueSliders = new Text[9];
-    //public int[] autoIncreaseEnemy = new int[9];
-    //public Text[] autoIncreaseEnemyT = new Text[9];
 
     public bool owner = false;
-    public GameObject hexPanel;
+    public GameObject hexPanelObject;
     public int myPower;
-    public Text myPowerT;
     public int enemyPower;
-    public Text enemyPowerT;
     public int enemyTurnPower;
-    public Text enemyTurnPowerT;
     public int myTurnPower;
-    public Text myTurnPowerT;
-
+    public int hexMoney;
 
     void Start()
     {
         StartCoroutine(AutoIncreaseEnemyCargo());
         StartCoroutine(Refresh());
-
     }
-    void Update()
+    void FixedUpdate()
     {
-        enemyPowerT.text = enemyPower.ToString();
-        myPowerT.text = myPower.ToString();
-
-        for (int i = 0; i < 9; i++)
-        {
-            valueSliders[i].text = Math.Truncate(sliders[i].value * Storage.storage[i]).ToString();
-        }
+        if (hexPanel != null) UpdatePanel();
     }
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (eventData.button == PointerEventData.InputButton.Left)
+        if (eventData.button == PointerEventData.InputButton.Left & !hexPanelObject.activeSelf)
         {
-            hexPanel.SetActive(true);
+            hexPanelObject.SetActive(true);
+            hexPanel = hexPanelObject.GetComponent<HexPanel>();
             eventData.Reset();
         }
     }
     public void CloseHexPanel()
     {
-        hexPanel.SetActive(false);
+        hexPanelObject.SetActive(false);
+        hexPanel = null;
+    }
+    void UpdatePanel()
+    {
+        hexPanel.hexMoneyT.text = "+" + hexMoney.ToString();
+        hexPanel.enemyPowerT.text = enemyPower.ToString();
+        hexPanel.enemyTurnPowerT.text = "+" + enemyTurnPower.ToString();
+        hexPanel.myPowerT.text = myPower.ToString();
+        hexPanel.myTurnPowerT.text = "+" + myTurnPower.ToString();
+        for (int i = 0; i < 9; i++)
+        {
+            hexPanel.hexCargoPlayerT[i].text = hexCargoPlayer[i].ToString();
+            hexPanel.hexCargoEnemyT[i].text = hexCargoEnemy[i].ToString();
+            hexPanel.valueSliders[i].text = Math.Truncate(hexPanel.sliders[i].value * Storage.storage[i]).ToString();
+        }
     }
     IEnumerator AutoIncreaseEnemyCargo()
     {
@@ -77,19 +77,13 @@ public class Hex : MonoBehaviour, IPointerClickHandler
     {
         while (true)
         {
-            yield return new WaitForSecondsRealtime(2);
+            yield return new WaitForSecondsRealtime(1);
             myTurnPower = CalculatePower(hexCargoPlayer);
             myPower += myTurnPower;
             enemyTurnPower = CalculatePower(hexCargoEnemy);
             enemyPower += enemyTurnPower;
-            for (int i = 0; i < 9; i++)
-            {
-                hexCargoPlayerT[i].text = hexCargoPlayer[i].ToString();
-                myTurnPowerT.text = "+" + myTurnPower.ToString();
-                hexCargoEnemyT[i].text = hexCargoEnemy[i].ToString();
-                enemyTurnPowerT.text = "+" + enemyTurnPower.ToString();
-            }
             TurnOfBattle();
+            if (owner) Storage.cMoney += hexMoney;
         }
     }
     public int CalculatePower(int[] cargo)
@@ -118,14 +112,16 @@ public class Hex : MonoBehaviour, IPointerClickHandler
             enemyPower = 0;
             this.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
             owner = true;
+            Storage.hexs[hexIndex] = true;
         }
     }
     public void SendResToHex()
     {
-        for (int i = 0; i < 9; i++)
-        {
-            hexCargoPlayer[i] += Convert.ToInt32(sliders[i].value * Storage.storage[i]);
-            Storage.storage[i] -= Convert.ToInt32(sliders[i].value * Storage.storage[i]);
-        }
+        if (hexPanel != null)
+            for (int i = 0; i < 9; i++)
+            {
+                hexCargoPlayer[i] += Convert.ToInt32(hexPanel.sliders[i].value * Storage.storage[i]);
+                Storage.storage[i] -= Convert.ToInt32(hexPanel.sliders[i].value * Storage.storage[i]);
+            };
     }
 }

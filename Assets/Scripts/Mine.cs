@@ -19,6 +19,8 @@ public class Mine : MonoBehaviour, IPointerClickHandler
     public int costIncrease;
     public int costAutoIncrease;
 
+    public Button lockButton;
+    public int deLockCost;
 
     void Start()
     {
@@ -60,7 +62,7 @@ public class Mine : MonoBehaviour, IPointerClickHandler
             Storage.storage[mineIndex] -= costIncrease;
             costIncrease *= 3;
             costIncreaseT.text = costIncrease.ToString();
-            countIncrease++;
+            countIncrease += countIncrease;
             countIncreaseT.text = countIncrease.ToString();
         }
     }
@@ -68,10 +70,12 @@ public class Mine : MonoBehaviour, IPointerClickHandler
     {
         if (Storage.storage[mineIndex] >= costAutoIncrease)
         {
+            
             Storage.storage[mineIndex] -= costAutoIncrease;
             costAutoIncrease *= 3;
             costAutoIncreaseT.text = costAutoIncrease.ToString();
-            countAutoIncrease++;
+            if (countAutoIncrease == 0) countAutoIncrease = 1;
+            else countAutoIncrease += Convert.ToInt32(countAutoIncrease * 1.3);
             countAutoIncreaseT.text = countAutoIncrease.ToString();
         }
     }
@@ -90,6 +94,15 @@ public class Mine : MonoBehaviour, IPointerClickHandler
         {
             yield return new WaitForSecondsRealtime(1);
             AutoCraft();
+        }
+    }
+    public void DeLockMine()
+    {
+        if (Storage.hexs[mineIndex] & Storage.cMoney >= deLockCost)
+        {
+            Storage.cMoney -= deLockCost;
+            lockButton.gameObject.SetActive(false);
+            Debug.Log("delock");
         }
     }
 }
