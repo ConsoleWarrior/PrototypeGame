@@ -65,11 +65,11 @@ public class Hex : MonoBehaviour, IPointerClickHandler
             if (owner)
                 for (int i = 0; i < hexIndex; i++)
                 {
-                    hexCargoEnemy[i] += hexIndex * 10;
+                    hexCargoEnemy[i] += hexIndex * 5;
                 }
             else for (int i = 0; i < hexIndex; i++)
                 {
-                    hexCargoEnemy[i] += hexIndex * 20;
+                    hexCargoEnemy[i] += hexIndex * 10;
                 }
         }
     }
@@ -92,7 +92,7 @@ public class Hex : MonoBehaviour, IPointerClickHandler
         for (int i = 0; i < cargo.Length; i++)
         {
             power += cargo[i] / 10 * price;
-            price = price * 2 + 1;
+            price = (price + i) * 2;
             cargo[i] -= cargo[i] / 10;
         }
         return power;
