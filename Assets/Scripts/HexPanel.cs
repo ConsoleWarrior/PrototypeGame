@@ -22,7 +22,7 @@ public class HexPanel : MonoBehaviour
 
     public void CloseHexPanel()
     {
-        foreach (var item in hexs)
+        foreach (var item in Mapping.map2x)
         {
             item.CloseHexPanel();
         }

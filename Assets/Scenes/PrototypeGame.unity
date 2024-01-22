@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 9219749}
   - component: {fileID: 9219748}
   m_Layer: 0
-  m_Name: Hexagon (22)
+  m_Name: 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -222,7 +222,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &9219751
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 25542802}
   - component: {fileID: 25542801}
   m_Layer: 0
-  m_Name: Hexagon (37)
+  m_Name: 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -529,7 +529,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &25542804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 33146631}
   - component: {fileID: 33146630}
   m_Layer: 0
-  m_Name: Hexagon (12)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -681,7 +681,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &33146633
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -689,158 +689,6 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33146628}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &34406396
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 34406397}
-  - component: {fileID: 34406401}
-  - component: {fileID: 34406400}
-  - component: {fileID: 34406399}
-  - component: {fileID: 34406398}
-  m_Layer: 0
-  m_Name: Hexagon (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &34406397
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34406396}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1511.2815}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 83303332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.8388853, y: -5.411115}
-  m_SizeDelta: {x: 1, y: 0.8828125}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &34406398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34406396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &34406399
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34406396}
-  m_CullTransparentMesh: 1
---- !u!114 &34406400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34406396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7b63556c77cf40b2250915c5a96eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hexPanel: {fileID: 0}
-  hexIndex: 3
-  hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
-  hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
-  owner: 1
-  hexPanelObject: {fileID: 1359678663}
-  myPower: 0
-  enemyPower: 0
-  enemyTurnPower: 0
-  myTurnPower: 0
-  hexMoney: 3
---- !u!212 &34406401
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34406396}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1090,7 +938,7 @@ GameObject:
   - component: {fileID: 69096797}
   - component: {fileID: 69096796}
   m_Layer: 0
-  m_Name: Hexagon (19)
+  m_Name: 27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1166,7 +1014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -1175,7 +1023,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &69096799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1482,6 +1330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83303332}
+  - component: {fileID: 83303333}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -1502,62 +1351,122 @@ Transform:
   m_LocalScale: {x: 54, y: 54, z: 54}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 195984583}
-  - {fileID: 1456594487}
-  - {fileID: 34406397}
-  - {fileID: 348495079}
-  - {fileID: 1704888168}
-  - {fileID: 1831169474}
-  - {fileID: 1708257239}
-  - {fileID: 106672528}
   - {fileID: 1431849058}
-  - {fileID: 69096795}
-  - {fileID: 1322081342}
-  - {fileID: 1862511006}
-  - {fileID: 926561403}
-  - {fileID: 1334878504}
+  - {fileID: 243462352}
+  - {fileID: 1622010664}
+  - {fileID: 1520653780}
+  - {fileID: 33146629}
+  - {fileID: 1595512486}
+  - {fileID: 1035811102}
+  - {fileID: 278377045}
+  - {fileID: 1174671618}
+  - {fileID: 736218705}
   - {fileID: 747749320}
-  - {fileID: 1303554683}
-  - {fileID: 1927370354}
-  - {fileID: 384737676}
   - {fileID: 1727067734}
-  - {fileID: 1239336538}
   - {fileID: 308201130}
   - {fileID: 1208421670}
-  - {fileID: 25542800}
   - {fileID: 2106907123}
   - {fileID: 869083598}
   - {fileID: 385611277}
   - {fileID: 1580489525}
   - {fileID: 954124600}
-  - {fileID: 736218705}
   - {fileID: 105503200}
-  - {fileID: 1174671618}
+  - {fileID: 69096795}
+  - {fileID: 1322081342}
+  - {fileID: 926561403}
+  - {fileID: 1334878504}
+  - {fileID: 1927370354}
+  - {fileID: 384737676}
+  - {fileID: 1239336538}
+  - {fileID: 25542800}
+  - {fileID: 1355259397}
+  - {fileID: 1119865032}
+  - {fileID: 106672528}
+  - {fileID: 1303554683}
+  - {fileID: 977432600}
+  - {fileID: 1389214398}
+  - {fileID: 817421988}
+  - {fileID: 656643981}
+  - {fileID: 938806219}
+  - {fileID: 318800283}
+  - {fileID: 741028490}
+  - {fileID: 783063618}
+  - {fileID: 1708257239}
+  - {fileID: 1862511006}
   - {fileID: 2083740985}
   - {fileID: 1133780902}
   - {fileID: 802132967}
-  - {fileID: 977432600}
-  - {fileID: 1389214398}
-  - {fileID: 1355259397}
   - {fileID: 797714470}
-  - {fileID: 817421988}
-  - {fileID: 656643981}
-  - {fileID: 1119865032}
-  - {fileID: 938806219}
-  - {fileID: 318800283}
   - {fileID: 9219747}
-  - {fileID: 741028490}
   - {fileID: 1826617370}
-  - {fileID: 1595512486}
-  - {fileID: 278377045}
-  - {fileID: 1520653780}
-  - {fileID: 243462352}
-  - {fileID: 33146629}
-  - {fileID: 783063618}
-  - {fileID: 1035811102}
-  - {fileID: 1622010664}
   m_Father: {fileID: 477755170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &83303333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83303331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b40de95d8bca9e4f96ea6b4967e35de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  row0:
+  - {fileID: 1431849061}
+  - {fileID: 243462355}
+  - {fileID: 1622010667}
+  - {fileID: 1520653783}
+  - {fileID: 33146632}
+  - {fileID: 1595512489}
+  - {fileID: 1035811105}
+  - {fileID: 278377048}
+  row1:
+  - {fileID: 1174671621}
+  - {fileID: 736218708}
+  - {fileID: 105503203}
+  - {fileID: 385611280}
+  - {fileID: 1580489528}
+  - {fileID: 308201133}
+  - {fileID: 1208421673}
+  - {fileID: 747749323}
+  row2:
+  - {fileID: 954124603}
+  - {fileID: 2106907126}
+  - {fileID: 869083601}
+  - {fileID: 1727067737}
+  - {fileID: 1239336541}
+  - {fileID: 926561406}
+  - {fileID: 1334878507}
+  - {fileID: 1119865035}
+  row3:
+  - {fileID: 25542803}
+  - {fileID: 1927370357}
+  - {fileID: 384737679}
+  - {fileID: 69096798}
+  - {fileID: 1322081345}
+  - {fileID: 1355259400}
+  - {fileID: 656643984}
+  - {fileID: 318800286}
+  row4:
+  - {fileID: 1303554686}
+  - {fileID: 106672531}
+  - {fileID: 783063621}
+  - {fileID: 1389214401}
+  - {fileID: 977432603}
+  - {fileID: 817421991}
+  - {fileID: 741028493}
+  - {fileID: 938806222}
+  row5:
+  - {fileID: 1862511009}
+  - {fileID: 1708257242}
+  - {fileID: 2083740988}
+  - {fileID: 802132970}
+  - {fileID: 1133780905}
+  - {fileID: 9219750}
+  - {fileID: 797714473}
+  - {fileID: 1826617373}
 --- !u!1 &83864552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,7 +1561,7 @@ GameObject:
   - component: {fileID: 105503202}
   - component: {fileID: 105503201}
   m_Layer: 0
-  m_Name: Hexagon (44)
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1728,7 +1637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -1737,7 +1646,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &105503204
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1804,7 +1713,7 @@ GameObject:
   - component: {fileID: 106672530}
   - component: {fileID: 106672529}
   m_Layer: 0
-  m_Name: Hexagon (7)
+  m_Name: 33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1880,7 +1789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -1889,7 +1798,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &106672532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2866,158 +2775,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189465559}
   m_CullTransparentMesh: 1
---- !u!1 &195984581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 195984583}
-  - component: {fileID: 195984582}
-  - component: {fileID: 195984584}
-  - component: {fileID: 195984586}
-  - component: {fileID: 195984587}
-  m_Layer: 0
-  m_Name: Hexagon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &195984582
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195984581}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!224 &195984583
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195984581}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1511.2815}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 83303332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.95, y: -3.8}
-  m_SizeDelta: {x: 1, y: 0.8828125}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &195984584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195984581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7b63556c77cf40b2250915c5a96eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hexPanel: {fileID: 0}
-  hexIndex: 1
-  hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
-  hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
-  owner: 1
-  hexPanelObject: {fileID: 1359678663}
-  myPower: 0
-  enemyPower: 0
-  enemyTurnPower: 0
-  myTurnPower: 0
-  hexMoney: 1
---- !u!222 &195984586
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195984581}
-  m_CullTransparentMesh: 1
---- !u!114 &195984587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195984581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &213407408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3420,7 +3177,7 @@ GameObject:
   - component: {fileID: 243462354}
   - component: {fileID: 243462353}
   m_Layer: 0
-  m_Name: Hexagon (11)
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3496,7 +3253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -3505,7 +3262,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &243462356
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3706,7 +3463,7 @@ GameObject:
   - component: {fileID: 278377047}
   - component: {fileID: 278377046}
   m_Layer: 0
-  m_Name: Hexagon (9)
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3782,7 +3539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -3791,7 +3548,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &278377049
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4012,7 +3769,7 @@ GameObject:
   - component: {fileID: 308201132}
   - component: {fileID: 308201131}
   m_Layer: 0
-  m_Name: Hexagon (35)
+  m_Name: 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4088,7 +3845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -4097,7 +3854,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &308201134
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4452,7 +4209,7 @@ GameObject:
   - component: {fileID: 318800285}
   - component: {fileID: 318800284}
   m_Layer: 0
-  m_Name: Hexagon (21)
+  m_Name: 31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4528,7 +4285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -4537,7 +4294,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &318800287
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4749,158 +4506,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328240004}
   m_CullTransparentMesh: 1
---- !u!1 &348495078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 348495079}
-  - component: {fileID: 348495083}
-  - component: {fileID: 348495082}
-  - component: {fileID: 348495081}
-  - component: {fileID: 348495080}
-  m_Layer: 0
-  m_Name: Hexagon (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &348495079
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348495078}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1511.2815}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 83303332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.5055723, y: -3.8000007}
-  m_SizeDelta: {x: 1, y: 0.8828125}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &348495080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348495078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &348495081
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348495078}
-  m_CullTransparentMesh: 1
---- !u!114 &348495082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348495078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7b63556c77cf40b2250915c5a96eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hexPanel: {fileID: 0}
-  hexIndex: 4
-  hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
-  hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
-  owner: 1
-  hexPanelObject: {fileID: 1359678663}
-  myPower: 0
-  enemyPower: 0
-  enemyTurnPower: 0
-  myTurnPower: 0
-  hexMoney: 4
---- !u!212 &348495083
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348495078}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &352080225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,7 +5083,7 @@ GameObject:
   - component: {fileID: 384737678}
   - component: {fileID: 384737677}
   m_Layer: 0
-  m_Name: Hexagon (32)
+  m_Name: 26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5554,7 +5159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -5563,7 +5168,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &384737680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5630,7 +5235,7 @@ GameObject:
   - component: {fileID: 385611279}
   - component: {fileID: 385611278}
   m_Layer: 0
-  m_Name: Hexagon (40)
+  m_Name: 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5706,7 +5311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -5715,7 +5320,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &385611281
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7392,6 +6997,7 @@ RectTransform:
   - {fileID: 213407409}
   - {fileID: 83303332}
   - {fileID: 1359678664}
+  - {fileID: 1743214969}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9116,7 +8722,6 @@ GameObject:
   - component: {fileID: 620375102}
   - component: {fileID: 620375103}
   - component: {fileID: 620375105}
-  - component: {fileID: 620375106}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9208,39 +8813,6 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e837991d8d21b24588f0ee62b4a9d32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  left: 97
-  right: 100
-  up: 119
-  down: 115
-  rotCamA: 113
-  rotCamB: 101
-  startPoint: {fileID: 620375104}
-  rotationX: 70
-  maxHeight: 15
-  minHeight: 5
-  rotationLimit: 240
-  camRotation: 0
-  height: 0
-  tmpHeight: 0
-  h: 0
-  v: 0
-  L: 0
-  R: 0
-  U: 0
-  D: 0
---- !u!114 &620375106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620375101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b40de95d8bca9e4f96ea6b4967e35de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &622004867
@@ -9668,7 +9240,7 @@ GameObject:
   - component: {fileID: 656643983}
   - component: {fileID: 656643982}
   m_Layer: 0
-  m_Name: Hexagon (17)
+  m_Name: 30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9744,7 +9316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -9753,7 +9325,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &656643985
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10503,7 +10075,7 @@ GameObject:
   - component: {fileID: 736218707}
   - component: {fileID: 736218706}
   m_Layer: 0
-  m_Name: Hexagon (43)
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10579,7 +10151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -10588,7 +10160,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &736218709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10655,7 +10227,7 @@ GameObject:
   - component: {fileID: 741028492}
   - component: {fileID: 741028491}
   m_Layer: 0
-  m_Name: Hexagon (23)
+  m_Name: 38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10731,7 +10303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -10740,7 +10312,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &741028494
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10966,7 +10538,7 @@ GameObject:
   - component: {fileID: 747749322}
   - component: {fileID: 747749321}
   m_Layer: 0
-  m_Name: Hexagon (29)
+  m_Name: 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11042,7 +10614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -11051,7 +10623,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &747749324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11492,7 +11064,7 @@ GameObject:
   - component: {fileID: 783063620}
   - component: {fileID: 783063619}
   m_Layer: 0
-  m_Name: Hexagon (13)
+  m_Name: 34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11568,7 +11140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -11577,7 +11149,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &783063622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11644,7 +11216,7 @@ GameObject:
   - component: {fileID: 797714472}
   - component: {fileID: 797714471}
   m_Layer: 0
-  m_Name: Hexagon (15)
+  m_Name: 46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11720,7 +11292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -11729,7 +11301,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &797714474
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11796,7 +11368,7 @@ GameObject:
   - component: {fileID: 802132969}
   - component: {fileID: 802132968}
   m_Layer: 0
-  m_Name: Hexagon (11)
+  m_Name: 43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11872,7 +11444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -11881,7 +11453,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &802132971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12250,7 +11822,7 @@ GameObject:
   - component: {fileID: 817421990}
   - component: {fileID: 817421989}
   m_Layer: 0
-  m_Name: Hexagon (16)
+  m_Name: 37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12326,7 +11898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -12335,7 +11907,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &817421992
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13194,7 +12766,7 @@ GameObject:
   - component: {fileID: 869083600}
   - component: {fileID: 869083599}
   m_Layer: 0
-  m_Name: Hexagon (39)
+  m_Name: 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13270,7 +12842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -13279,7 +12851,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &869083602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14559,7 +14131,7 @@ GameObject:
   - component: {fileID: 926561405}
   - component: {fileID: 926561404}
   m_Layer: 0
-  m_Name: Hexagon (27)
+  m_Name: 21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14635,7 +14207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -14644,7 +14216,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &926561407
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14845,7 +14417,7 @@ GameObject:
   - component: {fileID: 938806221}
   - component: {fileID: 938806220}
   m_Layer: 0
-  m_Name: Hexagon (20)
+  m_Name: 39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14921,7 +14493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -14930,7 +14502,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &938806223
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15223,7 +14795,7 @@ GameObject:
   - component: {fileID: 954124602}
   - component: {fileID: 954124601}
   m_Layer: 0
-  m_Name: Hexagon (42)
+  m_Name: 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15299,7 +14871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -15308,7 +14880,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &954124604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15613,7 +15185,7 @@ GameObject:
   - component: {fileID: 977432602}
   - component: {fileID: 977432601}
   m_Layer: 0
-  m_Name: Hexagon (12)
+  m_Name: 36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15689,7 +15261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -15698,7 +15270,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &977432604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16481,7 +16053,7 @@ GameObject:
   - component: {fileID: 1035811104}
   - component: {fileID: 1035811103}
   m_Layer: 0
-  m_Name: Hexagon (14)
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16557,7 +16129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -16566,7 +16138,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1035811106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17649,7 +17221,7 @@ GameObject:
   - component: {fileID: 1119865034}
   - component: {fileID: 1119865033}
   m_Layer: 0
-  m_Name: Hexagon (18)
+  m_Name: 23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17725,7 +17297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -17734,7 +17306,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1119865036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17801,7 +17373,7 @@ GameObject:
   - component: {fileID: 1133780904}
   - component: {fileID: 1133780903}
   m_Layer: 0
-  m_Name: Hexagon (10)
+  m_Name: 44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17877,7 +17449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -17886,7 +17458,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1133780906
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18327,7 +17899,7 @@ GameObject:
   - component: {fileID: 1174671620}
   - component: {fileID: 1174671619}
   m_Layer: 0
-  m_Name: Hexagon (45)
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18403,7 +17975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -18412,7 +17984,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1174671622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18629,7 +18201,7 @@ GameObject:
   - component: {fileID: 1208421672}
   - component: {fileID: 1208421671}
   m_Layer: 0
-  m_Name: Hexagon (36)
+  m_Name: 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18705,7 +18277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -18714,7 +18286,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1208421674
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19241,7 +18813,7 @@ GameObject:
   - component: {fileID: 1239336540}
   - component: {fileID: 1239336539}
   m_Layer: 0
-  m_Name: Hexagon (34)
+  m_Name: 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19317,7 +18889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -19326,7 +18898,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1239336542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20588,7 +20160,7 @@ GameObject:
   - component: {fileID: 1303554685}
   - component: {fileID: 1303554684}
   m_Layer: 0
-  m_Name: Hexagon (30)
+  m_Name: 32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20664,7 +20236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -20673,7 +20245,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1303554687
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20856,7 +20428,7 @@ GameObject:
   - component: {fileID: 1322081344}
   - component: {fileID: 1322081343}
   m_Layer: 0
-  m_Name: Hexagon (24)
+  m_Name: 28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20932,7 +20504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -20941,7 +20513,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1322081346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21008,7 +20580,7 @@ GameObject:
   - component: {fileID: 1334878506}
   - component: {fileID: 1334878505}
   m_Layer: 0
-  m_Name: Hexagon (28)
+  m_Name: 22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21084,7 +20656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -21093,7 +20665,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1334878508
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21235,7 +20807,7 @@ GameObject:
   - component: {fileID: 1355259399}
   - component: {fileID: 1355259398}
   m_Layer: 0
-  m_Name: Hexagon (14)
+  m_Name: 29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21311,7 +20883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -21320,7 +20892,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1355259401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21473,12 +21045,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 1359678663}
   hexs:
-  - {fileID: 195984584}
-  - {fileID: 1456594490}
-  - {fileID: 34406400}
-  - {fileID: 348495082}
-  - {fileID: 1704888171}
-  - {fileID: 1831169477}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   hexCargoPlayerT:
   - {fileID: 300939672}
   - {fileID: 521874717}
@@ -21922,7 +21494,7 @@ GameObject:
   - component: {fileID: 1389214400}
   - component: {fileID: 1389214399}
   m_Layer: 0
-  m_Name: Hexagon (13)
+  m_Name: 35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21998,7 +21570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -22007,7 +21579,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1389214402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22412,7 +21984,7 @@ GameObject:
   - component: {fileID: 1431849060}
   - component: {fileID: 1431849059}
   m_Layer: 0
-  m_Name: Hexagon (8)
+  m_Name: 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22488,7 +22060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -22497,7 +22069,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1431849062
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22949,158 +22521,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446716487}
   m_CullTransparentMesh: 1
---- !u!1 &1456594486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1456594487}
-  - component: {fileID: 1456594491}
-  - component: {fileID: 1456594490}
-  - component: {fileID: 1456594489}
-  - component: {fileID: 1456594488}
-  m_Layer: 0
-  m_Name: Hexagon (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1456594487
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456594486}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1511.2815}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 83303332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.8259306, y: -2.1092505}
-  m_SizeDelta: {x: 1, y: 0.8828125}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1456594488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456594486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1456594489
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456594486}
-  m_CullTransparentMesh: 1
---- !u!114 &1456594490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456594486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7b63556c77cf40b2250915c5a96eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hexPanel: {fileID: 0}
-  hexIndex: 2
-  hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
-  hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
-  owner: 1
-  hexPanelObject: {fileID: 1359678663}
-  myPower: 0
-  enemyPower: 0
-  enemyTurnPower: 0
-  myTurnPower: 0
-  hexMoney: 2
---- !u!212 &1456594491
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456594486}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1477013381
 GameObject:
   m_ObjectHideFlags: 0
@@ -23578,7 +22998,7 @@ GameObject:
   - component: {fileID: 1520653782}
   - component: {fileID: 1520653781}
   m_Layer: 0
-  m_Name: Hexagon (10)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23654,7 +23074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -23663,7 +23083,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1520653784
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24795,7 +24215,7 @@ GameObject:
   - component: {fileID: 1580489527}
   - component: {fileID: 1580489526}
   m_Layer: 0
-  m_Name: Hexagon (41)
+  m_Name: 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24871,7 +24291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -24880,7 +24300,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1580489529
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25027,7 +24447,7 @@ GameObject:
   - component: {fileID: 1595512488}
   - component: {fileID: 1595512487}
   m_Layer: 0
-  m_Name: Hexagon (8)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25103,7 +24523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -25112,7 +24532,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1595512490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25699,7 +25119,7 @@ GameObject:
   - component: {fileID: 1622010666}
   - component: {fileID: 1622010665}
   m_Layer: 0
-  m_Name: Hexagon (15)
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25775,7 +25195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -25784,7 +25204,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1622010668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27039,158 +26459,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 1
---- !u!1 &1704888167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1704888168}
-  - component: {fileID: 1704888172}
-  - component: {fileID: 1704888171}
-  - component: {fileID: 1704888170}
-  - component: {fileID: 1704888169}
-  m_Layer: 0
-  m_Name: Hexagon (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1704888168
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704888167}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1511.2815}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 83303332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.468524, y: -0.5407386}
-  m_SizeDelta: {x: 1, y: 0.8828125}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1704888169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704888167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1704888170
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704888167}
-  m_CullTransparentMesh: 1
---- !u!114 &1704888171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704888167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7b63556c77cf40b2250915c5a96eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hexPanel: {fileID: 0}
-  hexIndex: 5
-  hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
-  hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
-  owner: 1
-  hexPanelObject: {fileID: 1359678663}
-  myPower: 0
-  enemyPower: 0
-  enemyTurnPower: 0
-  myTurnPower: 0
-  hexMoney: 5
---- !u!212 &1704888172
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704888167}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1708257238
 GameObject:
   m_ObjectHideFlags: 0
@@ -27205,7 +26473,7 @@ GameObject:
   - component: {fileID: 1708257241}
   - component: {fileID: 1708257240}
   m_Layer: 0
-  m_Name: Hexagon (6)
+  m_Name: 41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27281,7 +26549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -27290,7 +26558,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1708257243
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27357,7 +26625,7 @@ GameObject:
   - component: {fileID: 1727067736}
   - component: {fileID: 1727067735}
   m_Layer: 0
-  m_Name: Hexagon (33)
+  m_Name: 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27433,7 +26701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -27442,7 +26710,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1727067738
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27659,6 +26927,139 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1743214968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743214969}
+  - component: {fileID: 1743214972}
+  - component: {fileID: 1743214971}
+  - component: {fileID: 1743214970}
+  m_Layer: 5
+  m_Name: Button (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1743214969
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743214968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2021038995}
+  m_Father: {fileID: 477755170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -280, y: 195}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1743214970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743214968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1743214971}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 83303333}
+        m_TargetAssemblyTypeName: Mapping, Assembly-CSharp
+        m_MethodName: TestBut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1743214971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743214968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1743214972
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743214968}
+  m_CullTransparentMesh: 1
 --- !u!1 &1749740818
 GameObject:
   m_ObjectHideFlags: 0
@@ -28789,7 +28190,7 @@ GameObject:
   - component: {fileID: 1826617372}
   - component: {fileID: 1826617371}
   m_Layer: 0
-  m_Name: Hexagon (25)
+  m_Name: 47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28865,7 +28266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -28874,7 +28275,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1826617374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28882,158 +28283,6 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826617369}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 0.8828125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &1831169473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1831169474}
-  - component: {fileID: 1831169478}
-  - component: {fileID: 1831169477}
-  - component: {fileID: 1831169476}
-  - component: {fileID: 1831169475}
-  m_Layer: 0
-  m_Name: Hexagon (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1831169474
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831169473}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1511.2815}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 83303332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.5055723, y: -7.059278}
-  m_SizeDelta: {x: 1, y: 0.8828125}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1831169475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831169473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1831169476
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831169473}
-  m_CullTransparentMesh: 1
---- !u!114 &1831169477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831169473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a7b63556c77cf40b2250915c5a96eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hexPanel: {fileID: 0}
-  hexIndex: 6
-  hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
-  hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
-  owner: 1
-  hexPanelObject: {fileID: 1359678663}
-  myPower: 0
-  enemyPower: 0
-  enemyTurnPower: 0
-  myTurnPower: 0
-  hexMoney: 6
---- !u!212 &1831169478
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831169473}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -29411,7 +28660,7 @@ GameObject:
   - component: {fileID: 1862511008}
   - component: {fileID: 1862511007}
   m_Layer: 0
-  m_Name: Hexagon (26)
+  m_Name: 40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29487,7 +28736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -29496,7 +28745,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1862511010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29965,7 +29214,7 @@ GameObject:
   - component: {fileID: 1927370356}
   - component: {fileID: 1927370355}
   m_Layer: 0
-  m_Name: Hexagon (31)
+  m_Name: 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30041,7 +29290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -30050,7 +29299,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &1927370358
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -31368,6 +30617,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017213645}
   m_CullTransparentMesh: 1
+--- !u!1 &2021038994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2021038995}
+  - component: {fileID: 2021038997}
+  - component: {fileID: 2021038996}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2021038995
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021038994}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1743214969}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2021038996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021038994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &2021038997
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021038994}
+  m_CullTransparentMesh: 1
 --- !u!1 &2021350066
 GameObject:
   m_ObjectHideFlags: 0
@@ -32229,7 +31557,7 @@ GameObject:
   - component: {fileID: 2083740987}
   - component: {fileID: 2083740986}
   m_Layer: 0
-  m_Name: Hexagon (9)
+  m_Name: 42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32305,7 +31633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -32314,7 +31642,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &2083740989
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32461,7 +31789,7 @@ GameObject:
   - component: {fileID: 2106907125}
   - component: {fileID: 2106907124}
   m_Layer: 0
-  m_Name: Hexagon (38)
+  m_Name: 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32537,7 +31865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hexPanel: {fileID: 0}
-  hexIndex: 6
+  hexIndex: 1
   hexCargoPlayer: 000000000000000000000000000000000000000000000000000000000000000000000000
   hexCargoEnemy: 640000000000000000000000000000000000000000000000000000000000000000000000
   owner: 1
@@ -32546,7 +31874,7 @@ MonoBehaviour:
   enemyPower: 0
   enemyTurnPower: 0
   myTurnPower: 0
-  hexMoney: 6
+  hexMoney: 1
 --- !u!212 &2106907127
 SpriteRenderer:
   m_ObjectHideFlags: 0
