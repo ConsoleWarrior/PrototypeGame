@@ -22,7 +22,7 @@ public class Hex : MonoBehaviour, IPointerClickHandler
 
     void Start()
     {
-        StartCoroutine(AutoIncreaseEnemyCargo());
+        //StartCoroutine(AutoIncreaseEnemyCargo());
         StartCoroutine(Refresh());
     }
     void FixedUpdate()
@@ -57,22 +57,22 @@ public class Hex : MonoBehaviour, IPointerClickHandler
             hexPanel.valueSliders[i].text = Math.Truncate(hexPanel.sliders[i].value * Storage.storage[i]).ToString();
         }
     }
-    IEnumerator AutoIncreaseEnemyCargo()
-    {
-        while (true)
-        {
-            yield return new WaitForSecondsRealtime(5);
-            if (owner)
-                for (int i = 0; i < hexIndex; i++)
-                {
-                    hexCargoEnemy[i] += hexIndex * 5;
-                }
-            else for (int i = 0; i < hexIndex; i++)
-                {
-                    hexCargoEnemy[i] += hexIndex * 10;
-                }
-        }
-    }
+    //IEnumerator AutoIncreaseEnemyCargo()
+    //{
+    //    while (true)
+    //    {
+    //        yield return new WaitForSecondsRealtime(5);
+    //        if (owner)
+    //            for (int i = 0; i < hexIndex; i++)
+    //            {
+    //                hexCargoEnemy[i] += hexIndex * 5;
+    //            }
+    //        else for (int i = 0; i < hexIndex; i++)
+    //            {
+    //                hexCargoEnemy[i] += hexIndex * 10;
+    //            }
+    //    }
+    //}
     IEnumerator Refresh()
     {
         while (true)

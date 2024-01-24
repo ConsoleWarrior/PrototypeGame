@@ -12,7 +12,7 @@ public class Mapping : MonoBehaviour
     public Hex[] row4;
     public Hex[] row5;
     public static Hex[,] map2x = new Hex[6,8];
-    //int[,] ints1 = new int[6, 8];
+    //public Hex testhex;
     void Start()
     {
 
@@ -25,6 +25,7 @@ public class Mapping : MonoBehaviour
     }
     public void TestBut()
     {
+
         Debug.Log(Connection(map2x, 3, 3));
     }
     public int Connection(Hex[,] hexes, int x, int y)
